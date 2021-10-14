@@ -1,0 +1,37 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+img:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.linkbox {
+    background-color: #f8f9fa;
+    border: 2px solid #a2a9b1;
+    width: 200px;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:hover {
+    text-align: center;
+    color: #d7b431;
+    background-color: black;
+}
+
+li {
+    margin-bottom: 5px;
+}
