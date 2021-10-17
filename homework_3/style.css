@@ -1,28 +1,35 @@
 body {
     background-color: #6fca9e;
 }
+
 .header {
-margin-bottom: 50px;
+    margin-bottom: 50px;
     border-bottom: 3px solid black;
 }
+
 .header strong {
     color: white;
 }
+
 .main-part {
     margin: 50px 0px;
 }
+
 .title-name {
     text-align: center;
-border-bottom: 4px solid white;
+    border-bottom: 4px solid white;
 }
+
 .title {
-text-align: center;
+    text-align: center;
     margin-bottom: 20px;
 }
+
 .footer {
-margin-top: 20px;
+    margin-top: 20px;
     border-top: 2px solid white;
 }
+
 .main-part img {
     width: 500px;
     height: 300px;
