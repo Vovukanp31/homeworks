@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.widgets {
+    background-color: #2269bb;
+    color: #f8f9fa;
+    height: 150px;
+    text-align: center;
+}
+
+.all-types-of-widgets {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    height: 300px;
+    row-gap: 70px;
+}
+
+.widget-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f8f9fa;
+    background-color: #16457a;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.contact {
+    height: 150px;
+    background-color: #2269bb;
+    color: #f8f9fa;
+    text-align: center;
+}

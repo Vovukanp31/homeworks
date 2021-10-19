@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+}
+
+.firstOne {
+    margin: 0px 400px;
+    background-color: slategray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+}
+
+.forTwoOther {
+    height: 400px;
+    display: flex;
+}
+
+.secondOne {
+    margin-left: 400px;
+    width: 80%;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.thirdOne {
+    margin-right: 400px;
+    width: 20%;
+    background-color: rgb(112, 134, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
