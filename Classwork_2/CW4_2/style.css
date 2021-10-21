@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 500px;
+    background-color: #ced8e1;
+}
+
+.headbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #6964e2;
+    color: #102b3e;
+}
+
+.nav-button {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 40px;
+    height: 20px;
+    background-color: #102b3e;
+    border-radius: 5px;
+}
+
+.text__nav-button {
+    color: #102b3e;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+    background-color: #6964e2
+}
+
+.boxframe {
+    width: 450px;
+    height: 200px;
+    border: 2px solid #6964e2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.group-of-blocks {
+    display: flex;
+    justify-content: space-evenly;
+    row-gap: 5px;
+}
+
+.blocks-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+    column-gap: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.block-content {
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: #102b3e;
+}
+
+.block-text {
+    text-align: center;
+    font-size: 8px;
+    color: #102b3e;
+    font-weight: bold;
+}
+
+.selection-part {
+    background-color: #102b3e;
+    width: 100%;
+    height: 160px;
+}
+
+.selection-block__content {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ced8e1;
+}
+
+.selection-block__text {
+    text-align: center;
+    font-size: 8px;
+    color: #ced8e1;
+    font-weight: bold;
+}
+
+.category-blocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    height: 200px;
+    width: 150px;
+    border: 2px solid #6964e2;
+    border-radius: 5px;
+}
+
+.category-block-logo {
+    margin-top: 5px;
+    background-color: #102b3e;
+    width: 140px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.category-block > .block-text {
+    width: 130px;
+}
+
+.lower-part__of-block {
+    height: 40px;
+    border: 2px solid;
+}
+
