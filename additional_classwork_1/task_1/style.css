@@ -12,7 +12,7 @@ body {
     row-gap: 10px;
 }
 
-.center-text {
+.center-text__white-font {
     display: flex;
     justify-content: center;
     align-items: center;

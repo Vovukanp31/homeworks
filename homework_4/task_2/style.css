@@ -3,22 +3,29 @@ body {
     color: white;
 }
 
-p {
+.margin-0 {
     margin: 0 0 0 0px;
+}
+
+p {
     font-size: 22px;
 }
 
+.center-text__white-font {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
 .header {
-    margin: 0 0 0 0px;
     padding-bottom: 30px;
     background-color: steelblue;
-    text-align: center;
 }
 
 .navigation {
     padding: 15px 0;
     background-color: rgb(39, 42, 77);
-    text-align: center;
 }
 
 .mainPart {
@@ -29,23 +36,14 @@ p {
 .main {
     background-color: rgb(44, 149, 139);
     width: 85%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .aside {
     background-color: rgb(72, 71, 119);
     width: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer {
     padding: 15px 0;
     background-color: rgb(142, 212, 205);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

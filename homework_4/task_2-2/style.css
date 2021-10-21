@@ -8,11 +8,23 @@ body {
     row-gap: 20px;
 }
 
+.font-white {
+    color: #f8f9fa;
+}
+
+.h150px {
+    height: 150px;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .widgets {
     background-color: #2269bb;
-    color: #f8f9fa;
-    height: 150px;
-    text-align: center;
 }
 
 .all-types-of-widgets {
@@ -24,19 +36,11 @@ body {
 }
 
 .widget-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #f8f9fa;
     background-color: #16457a;
     width: 250px;
     border-radius: 15px;
 }
 
 .contact {
-    height: 150px;
     background-color: #2269bb;
-    color: #f8f9fa;
-    text-align: center;
 }

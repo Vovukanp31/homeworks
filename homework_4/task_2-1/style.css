@@ -2,8 +2,10 @@ body {
     margin: 0;
 }
 
-.header {
+.h150px {
     height: 150px;
+}
+.header {
     background-color: #d7b431;
 }
 
@@ -34,6 +36,5 @@ body {
 }
 
 .footer {
-    height: 150px;
     background-color: cadetblue;
 }
