@@ -11,14 +11,14 @@ body {
     flex-direction: column;
     row-gap: 10px;
     width: 500px;
-    background-color: #ced8e1;
+    background-color: rgb(207, 214, 222);
 }
 
 .headbar {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    background-color: #6964e2;
+    background-color: rgb(58, 198, 234);
     color: #102b3e;
 }
 
@@ -46,13 +46,13 @@ body {
     align-items: center;
     height: 150px;
     text-align: center;
-    background-color: #6964e2
+    background-color: rgb(58, 198, 234);
 }
 
 .boxframe {
     width: 450px;
     height: 200px;
-    border: 2px solid #6964e2;
+    border: 2px solid rgb(58, 198, 234);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -92,23 +92,25 @@ body {
 }
 
 .selection-part {
+    display: flex;
+    justify-content: space-evenly;
     background-color: #102b3e;
     width: 100%;
     height: 160px;
 }
 
 .selection-block__content {
-    margin: 10px;
+    margin: 0 20px;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #ced8e1;
+    background-color: rgb(207, 214, 222);
 }
 
 .selection-block__text {
     text-align: center;
     font-size: 8px;
-    color: #ced8e1;
+    color: rgb(207, 214, 222);
     font-weight: bold;
 }
 
@@ -126,7 +128,7 @@ body {
     margin-top: 10px;
     height: 200px;
     width: 150px;
-    border: 2px solid #6964e2;
+    border: 2px solid rgb(58, 198, 234);
     border-radius: 5px;
 }
 
@@ -143,7 +145,53 @@ body {
 }
 
 .lower-part__of-block {
-    height: 40px;
-    border: 2px solid;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 50px;
+    width: 100%;
+    height: 5px;
+    border-top: 2px solid rgb(58, 198, 234);
+    color: #102b3e;
+    font-size: 10px;
 }
 
+.category-block > .block-text {
+    margin-top: 20px;
+}
+
+.info-parts {
+    height: 150px;
+    width: 450px;
+    padding: 20px;
+}
+
+.info-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 150%;
+}
+
+.left-side .page-selection {
+    background-color: #102b3e;
+}
+
+.right-side {
+    background-color: rgb(58, 198, 234);
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+}
+
+.page-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+    width: 10px;
+    border-radius: 2px;
+}
