@@ -33,10 +33,6 @@ body {
     border-radius: 5px;
 }
 
-.font-8px {
-    font-size: 8px;
-}
-
 .h100 {
     height: 100%;
 }
@@ -64,7 +60,6 @@ body {
 
 .wrap {
     row-gap: 10px;
-    width: 500px;
 }
 
 .headbar {
@@ -87,8 +82,8 @@ body {
 }
 
 .boxframe {
-    width: 450px;
-    height: 200px;
+    width: 90%;
+    height: 300px;
     border: 2px solid rgb(58, 198, 234);
     border-radius: 15px;
     justify-content: center;
@@ -97,7 +92,7 @@ body {
 
 .group-of-blocks {
     justify-content: space-evenly;
-    row-gap: 5px;
+    row-gap: 10px;
 }
 
 .blocks-card {
@@ -106,9 +101,15 @@ body {
     column-gap: 5px;
 }
 
+.blocks-card:hover {
+    box-sizing: border-box;
+    border: 2px solid rgb(58, 198, 234);
+    border-radius: 15px;
+}
+
 .block-content {
-    width: 90px;
-    height: 90px;
+    width: 150px;
+    height: 150px;
 }
 
 .block-text {
@@ -117,13 +118,11 @@ body {
 
 .selection-part {
     justify-content: space-evenly;
-    height: 160px;
+    height: 300px;
 }
 
 .selection-block__content {
     margin: 0 20px;
-    width: 80px;
-    height: 80px;
     border-radius: 50%;
 }
 
@@ -134,20 +133,22 @@ body {
 .category-blocks {
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 80%;
+    column-gap: 20px;
 }
 
 .category-block {
     margin-top: 10px;
-    height: 200px;
-    width: 150px;
+    height: 300px;
+    width: 250px;
     border: 2px solid rgb(58, 198, 234);
     border-radius: 5px;
 }
 
 .category-block-logo {
     margin-top: 5px;
-    width: 140px;
-    height: 70px;
+    width: 240px;
+    height: 240px;
 }
 
 .category-block > .block-text {
@@ -158,7 +159,7 @@ body {
     justify-content: flex-end;
     align-items: flex-start;
     margin-top: 50px;
-    height: 5px;
+    height: 15px;
     border-top: 2px solid rgb(58, 198, 234);
     font-size: 10px;
 }
@@ -168,8 +169,8 @@ body {
 }
 
 .info-parts {
-    height: 150px;
-    width: 450px;
+    height: 250px;
+    width: 650px;
     padding: 20px;
 }
 

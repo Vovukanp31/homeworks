@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+    .header {
+        height: 100%;
+        width: 70%;
+    }
+
+    .blocks-card {
+        margin: 10px 0;
+    }
+
+    .main-content {
+        height: 100%;
+        column-gap: 20px;
+    }
+
+    .group-of-blocks {
+        flex-direction: column;
+    }
+}

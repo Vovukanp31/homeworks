@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 30px;
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+
+    .button {
+        width: 100px;
+        height: 50px;
+    }
+
+    .group-of-blocks, .blocks-card {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .boxframe {
+        height: 100%;
+        width: 70%;
+    }
+
+    .selection-part {
+        height: 100%;
+        column-gap: 20px;
+    }
+
+    .lower-part__of-block {
+        height: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .info-parts {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .left-side, .right-side {
+        margin-bottom: 20px;
+        padding: 20px;
+        height: 100%;
+        align-items: center;
+    }
+
+    .category-block {
+        height: 100%;
+    }
+}
