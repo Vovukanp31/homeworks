@@ -183,7 +183,9 @@ table {
     display: flex;
     justify-content: center;
     column-gap: 30px;
-    margin-top: 60px;
+    position: relative;
+    top: 50px;
+    /*margin-top: 60px;*/
 }
 
 .review__block {
