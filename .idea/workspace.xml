@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60be9b9f-c388-467c-824e-06a597196360" name="Changes" comment="hw 7 done">
+      <change afterPath="$PROJECT_DIR$/Module HTML__CSS/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module HTML__CSS/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module HTML__CSS/image/placeholder 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module HTML__CSS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_7/image/placeholder 1.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zP80tjO44b3P147q3bdKDVLztT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Module HTML__CSS/image" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vovuk\WebstormProjects\homeworks\Module HTML__CSS\image" />
+      <recent name="C:\Users\vovuk\WebstormProjects\homeworks\homework_7\image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vovuk\WebstormProjects\first-homework\homework_1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60be9b9f-c388-467c-824e-06a597196360" name="Changes" comment="" />
+      <created>1634038143785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634038143785</updated>
+      <workItem from="1634038145366" duration="2208000" />
+      <workItem from="1635185570817" duration="106000" />
+      <workItem from="1635272411528" duration="34000" />
+      <workItem from="1635272596077" duration="2976000" />
+      <workItem from="1635280357896" duration="68000" />
+      <workItem from="1635432319197" duration="3939000" />
+      <workItem from="1635504970738" duration="11520000" />
+      <workItem from="1635537826097" duration="9361000" />
+      <workItem from="1635585956245" duration="8374000" />
+      <workItem from="1635614910258" duration="12724000" />
+      <workItem from="1635700022151" duration="2180000" />
+      <workItem from="1635702248119" duration="7240000" />
+      <workItem from="1635767009129" duration="4126000" />
+      <workItem from="1635861444831" duration="2500000" />
+      <workItem from="1635864460526" duration="139000" />
+      <workItem from="1635867679983" duration="4214000" />
+      <workItem from="1635873558025" duration="696000" />
+      <workItem from="1635874814127" duration="744000" />
+      <workItem from="1635928193088" duration="8205000" />
+      <workItem from="1635961771601" duration="17209000" />
+      <workItem from="1636034945955" duration="23333000" />
+      <workItem from="1636130598475" duration="15443000" />
+    </task>
+    <task id="LOCAL-00001" summary="hw 6 done">
+      <created>1635272973696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635272973696</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hw 6 done">
+      <created>1635274962628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635274962628</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hw 6 done">
+      <created>1635275595569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635275595569</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cw 3 done">
+      <created>1635627656186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635627656187</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cw 3 done">
+      <created>1635863707027</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635863707027</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw 6 done" />
+    <MESSAGE value="cw 3 done" />
+    <MESSAGE value="hw 7 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 7 done" />
+  </component>
+</project>
