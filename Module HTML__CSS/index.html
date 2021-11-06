@@ -17,16 +17,17 @@
     <div class="header-top">
         <nav class="navbar navbar-expand-lg navbar-light container">
             <div class="container-fluid">
-                <div class="nav-item">
+                <div class="nav-item d-none d-sm-block">
                     <a class="navbar-brand menu-icon" href="#">
                         <img src="./image/placeholder%201.svg"
-                             alt="shopping cart"></a>
+                             alt="location logo"></a>
                 </div>
                 <a class="navbar-brand" href="#">Ваш город: <span class="text-decoration-underline">Москва</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon d-flex d-sm-block justify-content-between align-items-center gap-1">Еще <img
+                            src="image/Chevron%20Right%201.png" alt="more image"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
@@ -81,7 +82,7 @@
     </div>
     <div class="header-bottom">
         <div class="header-bottom__upper-part container d-flex justify-content-between align-items-center">
-            <div class="logo d-flex">
+            <div class="logo d-none d-sm-flex">
                 <img src="image/Mask%20Group.png" alt="logo">
                 <div class="logo-text d-flex flex-column justify-content-center">
                     <span class="logo-text__header">AVT-ZAP</span>
@@ -91,44 +92,64 @@
                 </div>
             </div>
 
-            <div class="timetable d-flex align-items-start gap-2">
+            <div class="mobile-logo d-block d-sm-none">
+                <img src="image/Group%20111.png" alt="logo image">
+            </div>
+
+            <div class="timetable d-none d-sm-flex align-items-start gap-2">
                 <img src="image/time%20(1)%201.png" alt="clock logo">
                 <span class="text-end">Мы работаем: будни - 9:00-21:00
                     <br>
                     сб. - 10:00-15:00</span>
             </div>
 
-            <div class="location d-flex align-items-center gap-2">
+            <div class="location d-none d-sm-flex align-items-center gap-2">
                 <img src="image/placeholder%201.png" alt="location logo">
                 <span>Невский пр-т, д. 45</span>
             </div>
 
-            <div class="connect_whatsApp d-flex align-items-center">
+            <div class="connect_whatsApp d-none d-sm-flex align-items-center">
                 <img src="image/whatsapp%20(2)%201.png" alt="whatsapp logo">
                 <span>Напишите нам в WhatsApp</span>
             </div>
 
-            <div class="contacts d-flex flex-column align-items-end">
+            <div class="contacts d-none d-sm-flex flex-column align-items-end">
                 <span>+7 383 291 92 86</span>
                 <a href="#">форма обратной связи</a>
             </div>
+
+            <div class="d-flex d-sm-none flex-column-reverse align-items-center justify-content-center gap-2">
+                <div class="connect_whatsApp d-flex align-items-center">
+                    <img src="image/whatsapp%20(2)%201.png" alt="whatsapp logo">
+                    <span>Напишите нам в WhatsApp</span>
+                </div>
+
+                <div class="contacts flex-column justify-content-end align-items-end">
+                    <div><span>+7 383 291 92 86</span></div>
+                    <div><a href="#">форма обратной связи</a></div>
+                </div>
+            </div>
         </div>
-        <div class="header-bottom__lower-part container d-flex justify-content-between align-items-center">
+
+        <div class="header-bottom__lower-part container d-flex justify-content-evenly align-items-center">
             <button type="button" class="btn btn-primary d-flex align-items-center justify-content-center gap-2">
                 <div class="d-flex flex-column">
                     <div></div>
                     <div></div>
                     <div></div>
                 </div>
-                <span>Каталог</span></button>
+                <span class="d-none d-sm-block">Каталог</span></button>
 
             <form class="search-button d-flex">
                 <input class="form-control me-0" type="search" placeholder="Поиск по наименованию или артикулу"
                        aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Найти</button>
+                <button class="btn d-none d-sm-block btn-outline-success" type="submit">Найти</button>
+                <button class="btn d-flex justify-content-center align-items-center d-sm-none btn-outline-success"
+                        type="submit"><img src="image/search%20(2)%201.png"
+                                           alt="search button logo"></button>
             </form>
 
-            <div class="shortcuts d-flex align-items-center justify-content-center gap-4">
+            <div class="shortcuts d-none d-sm-flex align-items-center justify-content-center gap-4">
                 <div class="login d-flex align-items-center gap-3">
                     <img src="image/user%20(1)%201.png" alt="user logo">
                     <span>Войти</span>

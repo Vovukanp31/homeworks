@@ -1,0 +1,67 @@
+@media screen and (max-width: 400px){
+    .navbar > .container-fluid {
+justify-content: start;
+}
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: none;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.active {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .connect_whatsApp {
+        width: 150px;
+        height: 18px;
+    }
+
+    .connect_whatsApp span {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .contacts span {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #0F2438;
+    }
+
+    .contact a {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        text-decoration-line: underline;
+        color: #0F2438;
+    }
+
+    .form-control {
+        width: 203px;
+        height: 34px;
+    }
+
+    .btn-outline-success {
+        width: 34px;
+        height: 34px;
+    }
+
+    .header-bottom__lower-part .btn-primary {
+        width: 34px;
+        height: 34px;
+    }
+
+    .header-bottom__lower-part .btn-primary .d-flex div {
+        width: 20px;
+        height: 2px;
+    }
+
+
+}
