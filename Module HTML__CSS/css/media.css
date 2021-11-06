@@ -1,7 +1,15 @@
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
+    html {
+        overflow-x: hidden !important;
+    }
+
+    .sales-container::-webkit-scrollbar, .scroll-menu::-webkit-scrollbar, .filters::-webkit-scrollbar, html::-webkit-scrollbar {
+        display: none;
+    }
+
     .navbar > .container-fluid {
-justify-content: start;
-}
+        justify-content: start;
+    }
 
     .navbar-light .navbar-toggler-icon {
         background-image: none;
@@ -15,6 +23,10 @@ justify-content: start;
         font-weight: 500;
         font-size: 12px;
         line-height: 14px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
     }
 
     .connect_whatsApp {
@@ -63,5 +75,310 @@ justify-content: start;
         height: 2px;
     }
 
+    .main-part {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .carousel-caption {
+        width: 100% !important;
+        right: 5%;
+        left: 5%;
+    }
+
+    .carousel-caption__leftside h4 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .carousel-caption__leftside p {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .carousel-caption__leftside p > span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .carousel-caption__leftside > span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .carousel-caption__leftside button {
+        width: 124px;
+        height: 34px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .carousel-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon, .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+
+    #carouselExampleDark {
+        width: 95%;
+    }
+
+    .carousel-caption__rightside img {
+        width: 140px;
+        padding-right: 20px;
+    }
+
+    .sales-container {
+        flex-direction: row !important;
+        width: 100%;
+        padding-left: 3%;
+        padding-right: 3%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .sale-card {
+        min-height: 145px !important;
+        min-width: 250px !important;
+    }
+
+    .sale-card .text-start {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .sale-card span {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .sale-card .about-item__model {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .sale-card .current-price {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .sale-card .old_price {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .sale-card button {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scroll-menu {
+        width: 100%;
+        padding-left: 3%;
+        padding-right: 3%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        column-gap: 3%;
+        margin-top: 20px;
+    }
+
+    .scroll-menu__card {
+        min-width: 250px;
+        min-height: 126px;
+        padding: 10px;
+    }
+
+    .scroll-menu__card__text-side p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .scroll-menu__card__text-side h5 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .scroll-menu__card__text-side button {
+        height: 24px;
+        width: 72px;
+        font-size: 12px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .scroll-menu__card__img-side img {
+        width: 74px;
+    }
+
+    .filters .btn-primary, .filters .btn-outline-primary {
+        column-gap: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 36px;
+        width: auto;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .filters {
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        column-gap: 3%;
+        margin-top: 20px;
+    }
+
+    .product-card {
+        max-width: 138px;
+        max-height: 266px;
+    }
+
+    .product-card > img {
+        max-height: 127px;
+        max-width: 149px;
+    }
+
+    .reviews img, .product-actions button img {
+        max-width: 12px;
+    }
+
+    .product-card .reviews span, .product-card .reviews, .product-card .constant-price span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .product-card h5 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .product-card .product-price, .product-actions button {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .product-card .constant-price {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .product-actions button {
+        max-width: 110px;
+        max-height: 35px;
+    }
+
+    .product-actions button span {
+        display: flex;
+    }
+
+    .main-part-product {
+        width: 100%;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+        column-gap: 3%;
+    }
+
+    .main-part {
+        width: 100%;
+        column-gap: 3%;
+    }
+
+    .products-button .btn-outline-primary {
+        max-width: 160px;
+        max-height: 34px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .news-part h5::after {
+        display: none;
+    }
+
+    .news-part h5 {
+        margin-left: 3%;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .img-date > img {
+        display: none;
+    }
+
+    .news-block .date-mobile {
+        display: block;
+        background: #0C1A2A;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFFFFF;
+        padding: 2px 8px;
+    }
+
+    .news-container {
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    .news-block-text_mobile {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .footer_content {
+        width: 100%;
+        margin: 0;
+        row-gap: 25px;
+        padding-bottom: 60px;
+    }
+
+    .footer__left-side {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer__right-side {
+        width: 100%;
+    }
+
+    .subscr-links {
+        justify-content: start !important;
+    }
+
+    .contacts .mobile-number {
+        color: #FFFFFF;
+    }
+
+    .contact-part {
+        row-gap: 10px;
+    }
+
+    .dockbar__mobile-menu {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        background: #FFFFFF;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .dockbar__item span {
+        font-size: 10px;
+        line-height: 12px;
+        color: #0F2438;
+    }
 }

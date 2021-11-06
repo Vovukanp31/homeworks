@@ -445,7 +445,7 @@ body {
 .footer__right-side {
     width: 35%;
 }
-.contacts .siren_color, .subscr-text .siren_color {
+.contacts .siren_color, .subscr-text .siren_color, .adress .siren_color {
     color: #868DAC;
 }
 
@@ -465,4 +465,8 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #ADBDD1;
+}
+
+.date-mobile {
+    display: none;
 }
